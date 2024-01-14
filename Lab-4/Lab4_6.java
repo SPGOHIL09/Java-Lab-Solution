@@ -12,6 +12,6 @@ public class Lab4_6 {
             }
         }
         System.out.println("All Strings in args starts with Uppercase Letter");
-    }System.out.println();
+    }
     
 }
