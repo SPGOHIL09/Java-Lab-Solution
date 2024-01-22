@@ -5,7 +5,7 @@ public class Input_Scanner {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number : ");
         int a = sc.nextInt();
-        System.out.println("A = " + a);
+        System.out.println("A = " + a + "dyrteyte");
         sc.close();
     }
 }
