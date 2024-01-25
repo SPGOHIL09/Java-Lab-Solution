@@ -19,12 +19,18 @@ class Time{
 	}
 
 	void addTime(Time t){
+
+		this.second += t.second;
+
+		this.minute += t.minute;
+
+		this.hour += t.hour;
+
 		this.second += t.second;
 		while(this.second >= 60){
 			this.minute++;
 			
 			this.second -= 60;
-
 
 		}
 		this.minute += t.minute;
