@@ -1,30 +1,21 @@
-/**
- * Lab5_5
- */
 import java.util.*;
 
 class Complex{
 	int realno;
 	int imgno;
-
-
 	Complex(){
 		realno = 0;
 		imgno = 0;
 	}
-
 	Complex(int r, int i){
 		this.realno = r;
 		this.imgno = i;
 
 	}
-
 	void addComplex(Complex a, Complex b){
 		this.realno = a.realno+b.realno;
 		this.imgno = a.imgno+b.imgno;
 	}
-
-
 }
 
 public class Lab5_5 {

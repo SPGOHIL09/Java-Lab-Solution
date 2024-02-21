@@ -20,9 +20,9 @@ class Employee{
 		Scanner c = new Scanner(System.in);
 		System.out.print("Enter Employee ID:");
 		employee_id = c.nextInt();
-		c.nextLine();
+		
 		System.out.print("Enter Employee Name : ");
-	    employee_name = c.nextLine();
+	    employee_name = c.next();
 	    System.out.print("Enter Designation : ");
 	    designation = c.nextLine();
 	    System.out.print("Enter Employee Age : ");

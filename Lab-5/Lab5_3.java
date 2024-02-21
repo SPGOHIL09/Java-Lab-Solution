@@ -5,9 +5,11 @@ import java.util.Scanner;
 class String_Vowel{
     
     String str;
-    int count_a , count_e,count_i, count_o ,count_u;
+  
+    int count_a , count_e, count_i, count_o ,count_u;
     String_Vowel(){
         this.str = "";
+    
         this.count_a = 0;
         this.count_e = 0;
         this.count_i = 0;
@@ -16,6 +18,7 @@ class String_Vowel{
     }
     
     void countEachVowelFromString(String str){
+        
         this.str = str;
         for(int i = 0 ;i < str.length(); i++){
             if(str.charAt(i) == 'a'){
@@ -58,7 +61,7 @@ public class Lab5_3 {
             if(str.equals("quit")){
                 break;
             }
-            else{
+            else{ 
                 String_Vowel sv = new String_Vowel();
                 sv.countEachVowelFromString(str);
             }
