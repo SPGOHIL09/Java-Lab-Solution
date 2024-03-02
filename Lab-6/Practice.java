@@ -1,0 +1,8 @@
+/**
+ * Practice
+ */
+
+public class Practice {
+
+    
+}

@@ -42,7 +42,7 @@ class Student
                     break;
                 case "A":
                     sum += 9 * subject_credits[i];
-                    break;
+                    break; 
                 case "B+":
                     sum += 8 * subject_credits[i];
                     break;
