@@ -38,7 +38,7 @@ class Paper_Publication extends Book{
     Paper_Publication(String title, String author_name){
         super(author_name);
         this.title=title;
-        System.out.println(title);
+        
     }
     public void printDetails(){
         super.printDetails();
@@ -59,7 +59,7 @@ public class Lab6_2 {
             author_name = args[0];
             publicationType = args[1];
             title = args[2];
-            if(publicationType.equalsIgnoreCase("paper")){
+            if(publicationType.equals("paper")){
                 b1 = new Paper_Publication(author_name, title);
             }
             else{
