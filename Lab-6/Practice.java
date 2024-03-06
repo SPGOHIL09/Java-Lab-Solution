@@ -1,8 +1,0 @@
-/**
- * Practice
- */
-
-public class Practice {
-
-    
-}

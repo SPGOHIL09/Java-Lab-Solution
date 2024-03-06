@@ -41,13 +41,13 @@ class Member{
 class Employee extends Member{
     String specializations;
     Employee(String name, int age, String phoneNumber, String address, double salary,String specializations){
-            this.name= name;
-            this.age = age;
-            this.phoneNumber = phoneNumber;
-            this.address = address;
-            this.salary = salary;
+            // this.name= name;
+            // this.age = age;
+            // this.phoneNumber = phoneNumber;
+            // this.address = address;
+            // this.salary = salary;
+            super(name, age, phoneNumber, address, salary);
             this.specializations = specializations;
-            // super(name, age, phoneNumber, address, salary);
 
     }
     public void printDetails(){
@@ -65,12 +65,12 @@ class Employee extends Member{
 class Manager extends Member{
     String department;
     Manager(String name, int age, String phoneNumber, String address,double salary, String department){
-            this.name= name;
-            this.age = age;
-            this.phoneNumber = phoneNumber;
-            this.address = address;
-            this.salary = salary;
-            // super(name, age, phoneNumber, address, salary);
+            // this.name= name;
+            // this.age = age;
+            // this.phoneNumber = phoneNumber;
+            // this.address = address;
+            // this.salary = salary;
+            super(name, age, phoneNumber, address, salary);
             this.department = department;
     }
 
