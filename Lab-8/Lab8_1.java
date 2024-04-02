@@ -15,6 +15,15 @@
             System.out.println("Incorct Number format");
             e.printStackTrace();
         }
+        catch(ArrayIndexOutOfBoundsException e){
+            e.printStackTrace();
+        }
+        catch(IllegalArgumentException e){
+            e.printStackTrace();
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
         System.out.println(x);
     }
 

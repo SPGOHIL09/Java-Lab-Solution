@@ -46,3 +46,42 @@ public class Lab10_2 {
         }
     }
 }
+
+// import java.util.Scanner;
+// import java.io.File;
+// import java.io.FileWriter;
+
+// public class Lab10_2 {
+//     public static void main(String[] args) {
+//         Scanner sc;
+//         int replacements = 0;
+
+//         try{
+//             File f1 = new File("file1.txt");
+//             FileWriter fw = new FileWriter("file2.txt");
+//             sc = new Scanner(f1);
+
+//             while(sc.hasNextLine()){
+//                 String line = sc.nextLine();
+//                 String[] words = line.split(" ");
+
+//                 for(int i=0;i<words.length;i++){
+//                     if(words[i].equals("hello")){
+//                         fw.append("hi ");
+//                         replacements++;
+//                     }
+//                     else{
+//                         fw.append(words[i]+" ");
+//                     }
+//                 }
+//                 fw.append("\n");
+//             }
+//             System.out.println("Replacements : "+replacements);
+//             sc.close();
+//             fw.close();
+//         }
+//         catch(Exception e){
+//             e.printStackTrace();
+//         }
+//     }    
+// }

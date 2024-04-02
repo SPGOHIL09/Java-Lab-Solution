@@ -7,6 +7,7 @@ public class Lab11_1 {
         String filename = "abc.txt";
         try{
             BufferedWriter bw  = new BufferedWriter(new FileWriter(filename));
+            
             bw.write("Darshan,20\n");
             bw.write("Deep,22\n");
             bw.write("Diya,23\n");
