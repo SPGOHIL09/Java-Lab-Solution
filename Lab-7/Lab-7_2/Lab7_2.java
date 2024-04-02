@@ -3,7 +3,7 @@
  */
 
 interface A{
-    final int a = 10;
+     int a = 10;
     void display_A();
 }
 

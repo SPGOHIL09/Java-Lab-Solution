@@ -28,7 +28,7 @@ class Student extends Person{
     public Student(String name, int age, int roll_nO){
         super(name, age);
         this.roll_no = roll_nO;
-    }
+    } 
 
     public void printSomething(){
         super.printSomething();
